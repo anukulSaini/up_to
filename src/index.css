@@ -11,7 +11,6 @@
 
 .header {
     width: 100%;
-    line-height: 100px;
     background-color: #f5ba13;
     display: flex;
     justify-content: start;
@@ -20,4 +19,5 @@
     color: aliceblue;
     box-shadow: 5px 3px 15px -5px rgba(0,0,0,0);
 }
+
 
