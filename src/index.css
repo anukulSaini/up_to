@@ -1,0 +1,23 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Shadows+Into+Light&display=swap');
+
+*  {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+    font-family:"Shadows Into Light","Indie Flower" ;
+}
+
+.header {
+    width: 100%;
+    line-height: 100px;
+    background-color: #f5ba13;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 50px;
+    color: aliceblue;
+    box-shadow: 5px 3px 15px -5px rgba(0,0,0,0);
+}
+
