@@ -5,11 +5,9 @@ import  './Logo.css';
 
 const logo = (props) => (
     <div>
-        <img 
-        // style={{height:"auto", width: "100px" }}
-        src={burgerLogo} alt="MyBurger" />
+        <img src={burgerLogo} alt="MyBurger" />
     </div>
 );
 
 export default logo;
-// style={{width: "100px", height: "auto"}} 
+ 
