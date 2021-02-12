@@ -8,7 +8,7 @@ const Header = () =>{
          <Aux>
              <div className="header">
                 <div className="Logo">
-                <Logo/>
+                   <Logo/>
                 </div>
              </div>
          </Aux>
