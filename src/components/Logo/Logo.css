@@ -3,9 +3,19 @@
     padding: 8px;
     box-sizing: border-box;
     border-radius: 5px;
+    display: flex;
+    text-align: center;
 }
 
 .Logo img {
     height: 100px !important;
     width: "10px" !important;
+    margin: auto;
+}
+
+.Logo h1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
