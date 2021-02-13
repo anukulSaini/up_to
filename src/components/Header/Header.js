@@ -7,9 +7,7 @@ const Header = () =>{
     return (
          <Aux>
              <div className="header">
-                <div className="Logo">
-                   <Logo/>
-                </div>
+                <Logo/>
              </div>
          </Aux>
     );
