@@ -9,6 +9,7 @@ const Footer = () => {
         return (  
             <Aux>
                 <footer className="footer">
+                    <strong><p>Anukul Saini</p></strong>
                     <p>Copyright © {year}</p>
                 </footer>
             </Aux>
