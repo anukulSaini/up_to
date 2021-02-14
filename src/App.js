@@ -11,7 +11,7 @@ function App() {
   const [addItem,setAddItem] = useState([]);
   
   const addNote = (note) =>{
-    alert ("ok");
+    // alert ("ok");
     setAddItem((prevData) =>{
       return [...prevData,note];
     });
@@ -21,7 +21,13 @@ function App() {
     <Aux>
          <Header></Header>
          <CreateNote passNote ={addNote}></CreateNote>
-         <Note></Note>
+         {addItem.map((val,index)=>{
+             return <Note
+             key={index}
+             id={index}
+             value={val.title}
+             content={val.content}/>
+         })}
          <Footer></Footer>
     </Aux>
   );
