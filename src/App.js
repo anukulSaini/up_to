@@ -17,17 +17,46 @@ function App() {
     });
   };
 
+  // const deleteHandler =(id) =>{
+
+  //   const prevArray = addItem.filter( (val, i) => i !== id);
+  //     // setAddItem((prevData)=>{
+  //     //   prevData.filter((currentData,index)=>{
+  //     //     return index !== id;
+  //     //   })
+  //     // })
+  //     setAddItem(prevArray);
+  // }
+
+//  setAddItem((oldData)=>{
+//       oldData.filter((val,i)=>{
+//         return i !== id;
+//       })
+
+
+//  });
+
+
+const deleteHandler =(id)=>{
+ setAddItem((oldData)=>
+      oldData.filter((val,i)=>{
+        return i !== id;
+      })
+ )
+};
+
   return (
     <Aux>
          <Header></Header>
          <CreateNote passNote ={addNote}></CreateNote>
          {addItem.map((val,index)=>{
-             return <Note
+             return (<Note
              key={index}
              id={index}
              value={val.title}
-             content={val.content}/>
-         })}
+             content={val.content}
+             deleteHandler={deleteHandler}/>
+         );})}
          <Footer></Footer>
     </Aux>
   );

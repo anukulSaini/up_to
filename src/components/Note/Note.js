@@ -3,6 +3,11 @@ import Aux from '../../hoc/Aux/Aux';
 import DeleteOutlineIcon from '@material-ui/icons/DeleteOutline';
  
 const Note = (props) => {
+
+    // const deleteHandler = () =>{
+    //     props.deleteHandler(props.id);
+    // }
+
     return ( 
         <Aux>
             <div className="note">
@@ -10,7 +15,7 @@ const Note = (props) => {
                <p>
                    {props.content}
                </p>
-               <button className="btn">
+               <button className="btn" onClick={() => props.deleteHandler(props.id)}>
                <DeleteOutlineIcon className="deleteIcon"/>
                </button>
             </div>
