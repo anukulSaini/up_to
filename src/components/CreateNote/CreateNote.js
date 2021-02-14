@@ -37,10 +37,11 @@ const [note,setNote] = useState({
 
     
     return (
-        <div className="main_note"  onDoubleClick={()=>setExpand(false)}>
+        <div className="main_note"  >
                <form>
                    {expand?
                  <input 
+                   onDoubleClick={()=>setExpand(false)}
                    type="text" 
                    name="title"
                    value={note.title}  
@@ -50,6 +51,7 @@ const [note,setNote] = useState({
                  </input>
                  :null}
                    <textarea 
+                   onDoubleClick={()=>setExpand(false)}
                     rows=""
                     column=""
                     name="content"
