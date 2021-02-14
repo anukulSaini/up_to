@@ -158,4 +158,18 @@ textarea {
     color: #fff;
   }
 
+ 
+
+ @media (max-width: 450px) {
+    .main_note {
+        padding: 5%;
+        margin: auto 10px auto 10px;
+        width:100%;
+    }
+
+    .MuiButton-root{
+        left: 340px;
+    }
+} 
+
 
