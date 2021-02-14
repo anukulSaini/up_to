@@ -168,8 +168,17 @@ textarea {
     }
 
     .MuiButton-root{
-        left: 340px;
+        left: 15px;
     }
 } 
+
+
+
+
+
+
+@media (min-width : 1000px){
+    
+}
 
 
