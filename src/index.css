@@ -101,6 +101,61 @@ textarea {
     font-family: 'Shadows Into Light', sans-serif;
   }
 
+  .Logo h1 {
+      margin: auto;
+  }
+
+
+  .note {
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px #ccc;
+    padding: 10px;
+    width: 240px;
+    margin: 16px;
+    float: left;
+  }
   
+  .note h1 {
+    font-size: 1.1em;
+    margin-bottom: 6px;
+    font-family: 'Indie Flower', sans-serif;
+  }
+  
+  .note p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  .note .btn {
+    position: relative;
+    float: right;
+    margin-right: 10px;
+    color: #f4b400;
+    border: none;
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 3px 3px 15px -10px rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+  }
+  
+  .deleteIcon {
+    width: 0.7rem;
+    height: 0.7rem;
+  }
+  
+  .note .btn:hover {
+    background-color: #f5ba13;
+  }
+  
+  .note .btn:hover .deleteIcon {
+    color: #fff;
+  }
 
 
