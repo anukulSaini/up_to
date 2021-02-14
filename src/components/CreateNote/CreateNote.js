@@ -6,7 +6,7 @@ const CreateNote = (props) => {
 const [note,setNote] = useState({
      title : "",
      content : ""
-    })
+    });
 
     const InputEvent = (event) =>{
         // const value = event.target.value;
@@ -26,6 +26,10 @@ const [note,setNote] = useState({
 
     const anukulhandle = ()=> {
         props.passNote(note);
+        setNote({
+            title : "",
+            content : ""
+           });
     }
 
     
